@@ -1,5 +1,6 @@
 export default function BannersPage() {
   return (
+    import Image from "next/image"
     <div className="flex min-h-screen flex-col">
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-sm">
