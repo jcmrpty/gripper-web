@@ -1,8 +1,9 @@
-import React from "react"
-import Image from "next/image"  
+import React from "react";
+import Image from "next/image";
+
 export default function BannersPage() {
-return (
-       <div className="flex min-h-screen flex-col">
+  return (
+    <div className="flex min-h-screen flex-col">
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-sm">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
@@ -13,7 +14,7 @@ return (
             height={80}
             className="h-24 w-auto"
             unoptimized
-        />
+          />
           <nav className="hidden md:flex gap-6">
             <a href="#beneficios" className="text-sm font-medium hover:text-fuchsia-600">Beneficios</a>
             <a href="#materiales" className="text-sm font-medium hover:text-fuchsia-600">Materiales</a>
@@ -28,14 +29,21 @@ return (
         </div>
       </header>
 
-      {/* Línea decorativa */}
-      <section aria-label="Llamado a la acción inmediato" className="bg-[#4285F4] py-2 text-center text-white text-sm font-medium tracking-wide">
-  Impresión premium, entrega rápida y atención personalizada.{" "}
-  <a
-    href="https://wa.me/+50766340008"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="underline hover:text-fuchsia-200 transition"
-  >
-    Escribenos
-  </a>
+      {/* Línea azul decorativa */}
+      <section
+        aria-label="Llamado a la acción inmediato"
+        className="bg-[#4285F4] py-2 text-center text-white text-sm font-medium tracking-wide"
+      >
+        Impresión premium, entrega rápida y atención personalizada.{" "}
+        <a
+          href="https://wa.me/+50766340008"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-fuchsia-200 transition"
+        >
+          Escríbenos
+        </a>
+      </section>
+    </div>
+  );
+}
