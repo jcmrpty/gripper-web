@@ -127,6 +127,46 @@ export default function BannersPage() {
     </div>
   </div>
   </section>
+  {/* Beneficios clave */}
+<section
+  aria-label="Beneficios de nuestros banners"
+  className="py-20 bg-gradient-to-b from-fuchsia-50 to-white"
+>
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold text-center text-[#4285F4] mb-12">
+      ¿Por qué elegir nuestros Banners Roll Up?
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-8">
+      <div className="bg-white rounded-lg shadow-md p-6 text-center">
+        <h3 className="text-xl font-semibold mb-2 text-gray-800">
+          Alta Resolución
+        </h3>
+        <p className="text-gray-600">
+          Imágenes nítidas con calidad fotográfica en cada impresión. Perfectas para causar impacto visual.
+        </p>
+      </div>
+
+      <div className="bg-white rounded-lg shadow-md p-6 text-center">
+        <h3 className="text-xl font-semibold mb-2 text-gray-800">
+          Material PET Premium
+        </h3>
+        <p className="text-gray-600">
+          Durabilidad, acabado liso, y cero transparencia. Ideal para uso repetido en eventos y ferias.
+        </p>
+      </div>
+
+      <div className="bg-white rounded-lg shadow-md p-6 text-center">
+        <h3 className="text-xl font-semibold mb-2 text-gray-800">
+          Entrega Rápida
+        </h3>
+        <p className="text-gray-600">
+          Proceso ágil y eficiente para que tengas tus banners listos cuando más los necesitas.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
   </div>
 );
 }
