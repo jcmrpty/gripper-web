@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Clock, ShieldCheck, PenTool, Building2 } from "lucide-react";
 
 export default function BannersPage() {
   return (
@@ -127,8 +128,9 @@ export default function BannersPage() {
     </div>
   </div>
   </section>
-  {/* Beneficios clave */}
+{/* Beneficios clave */}
 <section
+  id="beneficios"
   aria-label="Beneficios de nuestros banners"
   className="py-20 bg-gradient-to-b from-fuchsia-50 to-white"
 >
@@ -137,36 +139,91 @@ export default function BannersPage() {
       ¿Por qué elegir nuestros Banners Roll Up?
     </h2>
 
-    <div className="grid md:grid-cols-3 gap-8">
+    <div className="grid gap-6 md:grid-cols-4">
+      {/* Beneficio 1 */}
       <div className="bg-white rounded-lg shadow-md p-6 text-center">
-        <h3 className="text-xl font-semibold mb-2 text-gray-800">
-          Alta Resolución
-        </h3>
-        <p className="text-gray-600">
-          Imágenes nítidas con calidad fotográfica en cada impresión. Perfectas para causar impacto visual.
+        <Clock className="mx-auto h-10 w-10 text-yellow-500 mb-4" />
+        <h3 className="text-lg font-semibold mb-2">Entregas rápidas</h3>
+        <p className="text-sm text-gray-600">
+          Cumplimos con los plazos más exigentes sin sacrificar calidad.
         </p>
       </div>
 
+      {/* Beneficio 2 */}
       <div className="bg-white rounded-lg shadow-md p-6 text-center">
-        <h3 className="text-xl font-semibold mb-2 text-gray-800">
-          Material PET Premium
-        </h3>
-        <p className="text-gray-600">
-          Durabilidad, acabado liso, y cero transparencia. Ideal para uso repetido en eventos y ferias.
+        <ShieldCheck className="mx-auto h-10 w-10 text-purple-500 mb-4" />
+        <h3 className="text-lg font-semibold mb-2">Alta durabilidad</h3>
+        <p className="text-sm text-gray-600">
+          Materiales resistentes que mantienen la calidad visual por más tiempo.
         </p>
       </div>
 
+      {/* Beneficio 3 */}
       <div className="bg-white rounded-lg shadow-md p-6 text-center">
-        <h3 className="text-xl font-semibold mb-2 text-gray-800">
-          Entrega Rápida
-        </h3>
-        <p className="text-gray-600">
-          Proceso ágil y eficiente para que tengas tus banners listos cuando más los necesitas.
+        <PenTool className="mx-auto h-10 w-10 text-cyan-500 mb-4" />
+        <h3 className="text-lg font-semibold mb-2">Diseño gráfico</h3>
+        <p className="text-sm text-gray-600">
+          Servicio opcional de diseño para crear banners que capturen la atención.
+        </p>
+      </div>
+
+      {/* Beneficio 4 */}
+      <div className="bg-white rounded-lg shadow-md p-6 text-center">
+        <Building2 className="mx-auto h-10 w-10 text-green-600 mb-4" />
+        <h3 className="text-lg font-semibold mb-2">Versatilidad</h3>
+        <p className="text-sm text-gray-600">
+          Ideal para ferias, eventos, oficinas y tiendas comerciales.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>{/* Beneficios clave */}
+<section
+  id="beneficios"
+  aria-label="Beneficios de nuestros banners"
+  className="py-20 bg-gradient-to-b from-fuchsia-50 to-white"
+>
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold text-center text-[#4285F4] mb-12">
+      ¿Por qué elegir nuestros Banners Roll Up?
+    </h2>
+
+    <div className="grid gap-6 md:grid-cols-4">
+      {/* Beneficio 1 */}
+      <div className="bg-white rounded-lg shadow-md p-6 text-center">
+        <Clock className="mx-auto h-10 w-10 text-yellow-500 mb-4" />
+        <h3 className="text-lg font-semibold mb-2">Entregas rápidas</h3>
+        <p className="text-sm text-gray-600">
+          Cumplimos con los plazos más exigentes sin sacrificar calidad.
+        </p>
+      </div>
+
+      {/* Beneficio 2 */}
+      <div className="bg-white rounded-lg shadow-md p-6 text-center">
+        <ShieldCheck className="mx-auto h-10 w-10 text-purple-500 mb-4" />
+        <h3 className="text-lg font-semibold mb-2">Alta durabilidad</h3>
+        <p className="text-sm text-gray-600">
+          Materiales resistentes que mantienen la calidad visual por más tiempo.
+        </p>
+      </div>
+
+      {/* Beneficio 3 */}
+      <div className="bg-white rounded-lg shadow-md p-6 text-center">
+        <PenTool className="mx-auto h-10 w-10 text-cyan-500 mb-4" />
+        <h3 className="text-lg font-semibold mb-2">Diseño gráfico</h3>
+        <p className="text-sm text-gray-600">
+          Servicio opcional de diseño para crear banners que capturen la atención.
+        </p>
+      </div>
+
+      {/* Beneficio 4 */}
+      <div className="bg-white rounded-lg shadow-md p-6 text-center">
+        <Building2 className="mx-auto h-10 w-10 text-green-600 mb-4" />
+        <h3 className="text-lg font-semibold mb-2">Versatilidad</h3>
+        <p className="text-sm text-gray-600">
+          Ideal para ferias, eventos, oficinas y tiendas comerciales.
         </p>
       </div>
     </div>
   </div>
 </section>
-  </div>
-);
-}
