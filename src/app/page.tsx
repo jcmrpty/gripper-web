@@ -10,7 +10,7 @@ export default function Home(): JSX.Element {
 
         <p className="text-lg text-gray-700">
           Impresión de <strong>Papelería</strong>, <strong>Banners</strong>, <strong>Material POP</strong>, <strong>Afiches</strong> y <strong>Canvas</strong>.<br />
-          Atención rápida, calidad premium.
+          Atención rápida, calidad premium.  
         </p>
 
         <div className="space-y-4">
