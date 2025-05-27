@@ -37,5 +37,5 @@ return (
     rel="noopener noreferrer"
     className="underline hover:text-fuchsia-200 transition"
   >
-    Haz tu pedido por WhatsApp
+    Escribenos
   </a>
