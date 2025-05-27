@@ -143,7 +143,7 @@ export default function BannersPage() {
       {/* Beneficio 1 */}
       <div className="bg-white rounded-lg shadow-md p-6 text-center">
         <Clock className="mx-auto h-10 w-10 text-yellow-500 mb-4" />
-        <h3 className="text-lg font-semibold mb-2">Entregas rápidas</h3>
+        <h3 className="text-lg font-semibold mb-2 text-[#4285F4]">Entregas rápidas</h3>
         <p className="text-sm text-gray-600">
           Cumplimos con los plazos más exigentes sin sacrificar calidad.
         </p>
@@ -152,7 +152,7 @@ export default function BannersPage() {
       {/* Beneficio 2 */}
       <div className="bg-white rounded-lg shadow-md p-6 text-center">
         <ShieldCheck className="mx-auto h-10 w-10 text-purple-500 mb-4" />
-        <h3 className="text-lg font-semibold mb-2">Alta durabilidad</h3>
+         <h3 className="text-lg font-semibold mb-2 text-[#4285F4]">Alta Durabilidad</h3>
         <p className="text-sm text-gray-600">
           Materiales resistentes que mantienen la calidad visual por más tiempo.
         </p>
@@ -161,7 +161,7 @@ export default function BannersPage() {
       {/* Beneficio 3 */}
       <div className="bg-white rounded-lg shadow-md p-6 text-center">
         <PenTool className="mx-auto h-10 w-10 text-cyan-500 mb-4" />
-        <h3 className="text-lg font-semibold mb-2">Diseño gráfico</h3>
+         <h3 className="text-lg font-semibold mb-2 text-[#4285F4]">Diseño Gráfico</h3>
         <p className="text-sm text-gray-600">
           Servicio opcional de diseño para crear banners que capturen la atención.
         </p>
@@ -170,7 +170,7 @@ export default function BannersPage() {
       {/* Beneficio 4 */}
       <div className="bg-white rounded-lg shadow-md p-6 text-center">
         <Building2 className="mx-auto h-10 w-10 text-green-600 mb-4" />
-        <h3 className="text-lg font-semibold mb-2">Versatilidad</h3>
+         <h3 className="text-lg font-semibold mb-2 text-[#4285F4]">Versatilidad</h3>
         <p className="text-sm text-gray-600">
           Ideal para ferias, eventos, oficinas y tiendas comerciales.
         </p>
