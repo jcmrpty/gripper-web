@@ -7,7 +7,7 @@ return (
       <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-sm">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Image
-            src="/images/logo.png"
+            src="/images/logo-gripper.png"
             alt="GripperPrint Logo"
             width={160}
             height={80}
