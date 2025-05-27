@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Home(): JSX.Element {
+export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-blue-100 to-fuchsia-100 text-center px-6">
       <div className="max-w-xl space-y-6">
