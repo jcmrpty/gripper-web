@@ -177,53 +177,7 @@ export default function BannersPage() {
       </div>
     </div>
   </div>
-</section>{/* Beneficios clave */}
-<section
-  id="beneficios"
-  aria-label="Beneficios de nuestros banners"
-  className="py-20 bg-gradient-to-b from-fuchsia-50 to-white"
->
-  <div className="container mx-auto px-4">
-    <h2 className="text-3xl font-bold text-center text-[#4285F4] mb-12">
-      ¿Por qué elegir nuestros Banners Roll Up?
-    </h2>
-
-    <div className="grid gap-6 md:grid-cols-4">
-      {/* Beneficio 1 */}
-      <div className="bg-white rounded-lg shadow-md p-6 text-center">
-        <Clock className="mx-auto h-10 w-10 text-yellow-500 mb-4" />
-        <h3 className="text-lg font-semibold mb-2">Entregas rápidas</h3>
-        <p className="text-sm text-gray-600">
-          Cumplimos con los plazos más exigentes sin sacrificar calidad.
-        </p>
-      </div>
-
-      {/* Beneficio 2 */}
-      <div className="bg-white rounded-lg shadow-md p-6 text-center">
-        <ShieldCheck className="mx-auto h-10 w-10 text-purple-500 mb-4" />
-        <h3 className="text-lg font-semibold mb-2">Alta durabilidad</h3>
-        <p className="text-sm text-gray-600">
-          Materiales resistentes que mantienen la calidad visual por más tiempo.
-        </p>
-      </div>
-
-      {/* Beneficio 3 */}
-      <div className="bg-white rounded-lg shadow-md p-6 text-center">
-        <PenTool className="mx-auto h-10 w-10 text-cyan-500 mb-4" />
-        <h3 className="text-lg font-semibold mb-2">Diseño gráfico</h3>
-        <p className="text-sm text-gray-600">
-          Servicio opcional de diseño para crear banners que capturen la atención.
-        </p>
-      </div>
-
-      {/* Beneficio 4 */}
-      <div className="bg-white rounded-lg shadow-md p-6 text-center">
-        <Building2 className="mx-auto h-10 w-10 text-green-600 mb-4" />
-        <h3 className="text-lg font-semibold mb-2">Versatilidad</h3>
-        <p className="text-sm text-gray-600">
-          Ideal para ferias, eventos, oficinas y tiendas comerciales.
-        </p>
-      </div>
-    </div>
-  </div>
 </section>
+ </div>
+);
+}
