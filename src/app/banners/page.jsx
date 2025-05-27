@@ -44,6 +44,50 @@ export default function BannersPage() {
           Escríbenos
         </a>
       </section>
+      {/* Hero Section */}
+<section
+  aria-label="Presentación de producto"
+  className="relative overflow-hidden bg-gradient-to-b from-white to-fuchsia-50 pt-12 pb-20"
+>
+  <div className="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center relative z-10">
+    
+    {/* Texto principal */}
+    <div className="space-y-6">
+      <h1 className="text-4xl sm:text-5xl font-bold text-[#4285F4] leading-tight">
+        Banners que Impactan
+      </h1>
+      <p className="text-lg text-gray-700">
+        Impresión premium de roll ups en material PET, alta resolución, entrega rápida y atención personalizada.
+      </p>
+      <a
+        href="https://wa.me/+50766340008"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded text-sm font-medium">
+          Contáctanos por WhatsApp
+        </button>
+      </a>
+    </div>
+
+    {/* Imagen de banners */}
+    <div className="relative w-full">
+      <Image
+        src="/images/banner-principal.png"
+        alt="Ejemplo de banners roll up de alta calidad"
+        width={800}
+        height={500}
+        className="mx-auto rounded-lg shadow-lg"
+        unoptimized
+        priority
+      />
+    </div>
+  </div>
+
+  {/* Decoraciones suaves */}
+  <div className="absolute top-1/2 right-0 w-64 h-64 bg-yellow-300 rounded-full blur-3xl opacity-20 -translate-y-1/2 translate-x-1/2" />
+  <div className="absolute bottom-0 left-1/4 w-40 h-40 bg-fuchsia-400 rounded-full blur-3xl opacity-20" />
+</section>
     </div>
   );
 }
