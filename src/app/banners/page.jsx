@@ -88,6 +88,45 @@ export default function BannersPage() {
   <div className="absolute top-1/2 right-0 w-64 h-64 bg-yellow-300 rounded-full blur-3xl opacity-20 -translate-y-1/2 translate-x-1/2" />
   <div className="absolute bottom-0 left-1/4 w-40 h-40 bg-fuchsia-400 rounded-full blur-3xl opacity-20" />
 </section>
+{/* Galería de banners - Carrusel deslizable */}
+<section
+  aria-label="Galería de banners impresos"
+  className="relative py-16 bg-white"
+>
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold text-[#4285F4] text-center mb-10">
+      Algunas Muestras
+    </h2>
+
+    <div className="relative overflow-hidden">
+      {/* Contenedor deslizante */}
+      <div className="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 px-1 md:px-0">
+        {/* Cada imagen es un slide */}
+        {[
+          { src: "/images/banner-bioskin.png", alt: "Banner de producto dermocosmético Bioskin" },
+          { src: "/images/banner-pacifica.png", alt: "Banner promocional Pacifica Tower" },
+          { src: "/images/banner-santa-amelia.png", alt: "Banner residencial Santa Amelia" },
+          { src: "/images/banner-cordoba.png", alt: "Banner institucional Cordoba" },
+          { src: "/images/banner-techsys.png", alt: "Banner corporativo Techsys Panamá" }
+        ].map((image, index) => (
+          <div
+            key={index}
+            className="flex-shrink-0 w-64 md:w-80 snap-center rounded-lg shadow-md overflow-hidden"
+          >
+            <Image
+              src={image.src}
+              alt={image.alt}
+              width={600}
+              height={900}
+              className="w-full h-auto object-contain"
+              unoptimized
+            />
+          </div>
+        ))}
+      </div>
     </div>
-  );
+  </div>
+  </section>
+  </div>
+);
 }
