@@ -22,7 +22,7 @@ export default function BannersPage() {
             <a href="#contacto" className="text-sm font-medium hover:text-fuchsia-600">Contacto</a>
           </nav>
           <a href="https://wa.me/+50766340008" target="_blank" className="hidden md:flex">
-            <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">
+            <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded cursor-pointer">
               Contáctanos por WhatsApp
             </button>
           </a>
@@ -64,7 +64,7 @@ export default function BannersPage() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded text-sm font-medium">
+        <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded text-sm font-medium cursor-pointer">
           Contáctanos por WhatsApp
         </button>
       </a>
