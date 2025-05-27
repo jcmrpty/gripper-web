@@ -29,12 +29,17 @@ return (
       </header>
 
       {/* Línea decorativa */}
-      <div className="bg-[#4285F4] py-2 text-center text-white text-sm font-medium">
-        Impresión premium, entrega rápida y atención personalizada.{" "}
-        <a href="https://wa.me/+50766340008" target="_blank" className="underline hover:text-fuchsia-200">
-          Escríbenos
-        </a>
-      </div>
+      <section aria-label="Llamado a la acción inmediato" className="bg-[#4285F4] py-2 text-center text-white text-sm font-medium tracking-wide">
+  Impresión premium, entrega rápida y atención personalizada.{" "}
+  <a
+    href="https://wa.me/+50766340008"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline hover:text-fuchsia-200 transition"
+  >
+    Haz tu pedido por WhatsApp
+  </a>
+</section>
 
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-white to-fuchsia-50 pt-8 md:pt-12 pb-16 md:pb-24">
