@@ -13,9 +13,9 @@ export default function BannersPage() {
           <Image
             src="/images/logo-gripper.png"
             alt="GripperPrint Logo"
-            width={160}
-            height={80}
-            className="h-24 w-auto"
+            width={120}
+            height={60}
+            className="h-16 w-auto"
             unoptimized
           />
           <nav className="hidden md:flex gap-6">
