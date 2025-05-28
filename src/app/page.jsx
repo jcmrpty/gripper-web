@@ -7,7 +7,7 @@ export default function Home() {
         {/* Logo actualizado */}
         <img src="/images/logo-gripper.png" alt="GripperPrint Logo" className="mx-auto h-20" />
 {/* Cambio de prueba para confirmar despliegue */}
-        <h1 className="text-4xl font-bold text-blue-700">EN CONSTRUCTION</h1>
+        <h1 className="text-4xl font-bold text-blue-700">EN CONSTRICCION</h1>
 
         <p className="text-lg text-gray-700">
           Impresión de <strong>Papelería</strong>, <strong>Banners</strong>, <strong>Material POP</strong>, <strong>Afiches</strong> y <strong>Canvas</strong>.<br />
