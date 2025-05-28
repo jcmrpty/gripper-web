@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Clock, ShieldCheck, PenTool, Building2 } from "lucide-react";
 
 export default function BannersPage() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="flex min-h-screen flex-col">
       {/* Header */}
@@ -58,7 +60,7 @@ export default function BannersPage() {
         Banners que Impactan
       </h1>
       <p className="text-lg text-gray-700">
-        Impresión premium de roll ups en material PET, alta resolución, entrega rápida y atención personalizada.
+        Impresion Premium de Banners en diferentes acabados y materiales. Pet - UV sectorizado - Tradicional.
       </p>
       <a
         href="https://wa.me/+50766340008"
@@ -136,7 +138,7 @@ export default function BannersPage() {
 >
   <div className="container mx-auto px-4">
     <h2 className="text-3xl font-bold text-center text-[#4285F4] mb-12">
-      ¿Por qué elegir nuestros Banners Roll Up?
+      ¿Por qué elegir nuestros Banners?
     </h2>
 
     <div className="grid gap-6 md:grid-cols-4">
@@ -178,6 +180,35 @@ export default function BannersPage() {
     </div>
   </div>
 </section>
- </div>
-);
+     {/* Footer */}
+      <footer className="bg-[#1F2937] text-white pt-10 pb-6 mt-20">
+        <div className="container mx-auto px-4 grid gap-6 md:grid-cols-3 items-start">
+          <div>
+            <h4 className="text-xl font-bold mb-2">GripperPrint</h4>
+            <p className="text-sm">Impresión de calidad para tus proyectos</p>
+          </div>
+
+          <div className="text-sm space-y-2">
+            <a href="#" className="block hover:underline">Términos y Condiciones</a>
+            <a href="#" className="block hover:underline">Política de Privacidad</a>
+          </div>
+
+          <div>
+            <p className="text-sm mb-2">Contáctanos:</p>
+            <a
+              href="mailto:ventasgripper@gmail.com"
+              className="text-lg font-semibold hover:underline block text-white"
+            >
+              ventasgripper@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <div className="mt-10 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
+          <p>© {currentYear} GripperPrint. Todos los derechos reservados.</p>
+          <p className="mt-1">Sitio creado por GripperPrint</p>
+        </div>
+      </footer>
+</div>
+  );
 }
