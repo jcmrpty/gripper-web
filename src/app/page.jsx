@@ -4,13 +4,14 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-blue-100 to-fuchsia-100 text-center px-6">
       <div className="max-w-xl space-y-6">
-        <img src="/images/logo.png" alt="GripperPrint Logo" className="mx-auto h-24" />
+        {/* Logo actualizado */}
+        <img src="/images/logo-gripper.png" alt="GripperPrint Logo" className="mx-auto h-20" />
 
         <h1 className="text-4xl font-bold text-blue-700">Sitio en construcción</h1>
 
         <p className="text-lg text-gray-700">
           Impresión de <strong>Papelería</strong>, <strong>Banners</strong>, <strong>Material POP</strong>, <strong>Afiches</strong> y <strong>Canvas</strong>.<br />
-          Atención rápida, calidad premium.  
+          Atención rápida, calidad premium.
         </p>
 
         <div className="space-y-4">
@@ -23,7 +24,8 @@ export default function Home() {
             Escríbenos por WhatsApp
           </a>
 
-          <p className="text-sm text-gray-600">
+          {/* Correo más grande */}
+          <p className="text-lg text-gray-700">
             También puedes escribirnos a <br />
             <a href="mailto:ventasgripper@gmail.com" className="underline text-blue-600">
               ventasgripper@gmail.com
